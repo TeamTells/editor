@@ -1,5 +1,5 @@
 import { CSSProperties } from 'react';
-import { UI } from '@yoopta/editor';
+import { UI } from '@teamtells/editor';
 import { EmbedLinkUploader } from './EmbedLinkUploader';
 
 type Props = {

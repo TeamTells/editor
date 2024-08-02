@@ -1,4 +1,4 @@
-import { generateId, YooptaPlugin } from '@yoopta/editor';
+import { generateId, YooptaPlugin } from '@teamtells/editor';
 import { EmbedElementProps, EmbedPluginElements, EmbedPluginOptions, EmbedProviderTypes } from '../types';
 import { EmbedRender } from '../ui/Embed';
 

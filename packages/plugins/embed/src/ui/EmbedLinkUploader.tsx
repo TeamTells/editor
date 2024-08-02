@@ -1,4 +1,4 @@
-import { Elements, useYooptaEditor } from '@yoopta/editor';
+import { Elements, useYooptaEditor } from '@teamtells/editor';
 import { ChangeEvent, useState } from 'react';
 import { EmbedElementProps, EmbedPluginElements, EmbedProvider } from '../types';
 import { getProvider, ProviderGetters } from '../utils/providers';

@@ -1,4 +1,4 @@
-import { Elements, useYooptaEditor } from '@yoopta/editor';
+import { Elements, useYooptaEditor } from '@teamtells/editor';
 import { useEffect, useRef } from 'react';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { EmbedElementProps, EmbedPluginElements, ProviderRenderProps } from '../types';
