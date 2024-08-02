@@ -1,4 +1,4 @@
-import { Elements, findSlateBySelectionPath, SlateElement, UI, useYooptaEditor, useYooptaTools } from '@yoopta/editor';
+import { Elements, findSlateBySelectionPath, SlateElement, UI, useYooptaEditor, useYooptaTools } from '@teamtells/editor';
 import { Copy, SquareArrowOutUpRight } from 'lucide-react';
 import { useState } from 'react';
 import { useFloating, offset, flip, shift, inline, autoUpdate, useTransitionStyles } from '@floating-ui/react';

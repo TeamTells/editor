@@ -1,4 +1,4 @@
-import { generateId, YooptaPlugin } from '@yoopta/editor';
+import { generateId, YooptaPlugin } from '@teamtells/editor';
 import { LinkElementProps, LinkPluginElementKeys } from '../types';
 import { LinkRender } from '../ui/LinkRender';
 

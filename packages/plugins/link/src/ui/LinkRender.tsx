@@ -1,4 +1,4 @@
-import { PluginElementRenderProps, useYooptaReadOnly } from '@yoopta/editor';
+import { PluginElementRenderProps, useYooptaReadOnly } from '@teamtells/editor';
 import { useState } from 'react';
 import { LinkElementProps } from '../types';
 import { LinkHoverPreview } from './LinkHoverPreview';
