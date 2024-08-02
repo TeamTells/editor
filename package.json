@@ -1,13 +1,6 @@
 {
-  "name": "yoopta",
-  "workspaces": [
-    "packages/plugins/*",
-    "packages/tools/*",
-    "packages/marks",
-    "packages/core/*",
-    "packages/development"
-  ],
-  "private": true,
+  "name": "teamtells-editor",
+  "version": "1.0.0",
   "scripts": {
     "dev": "npm-run-all --parallel start serve",
     "start": "yarn lerna run start --parallel --ignore development",

@@ -1,6 +1,6 @@
 {
-  "name": "@yoopta/editor",
-  "version": "4.6.7",
+  "name": "@teamtells/editor",
+  "version": "1.0.2",
   "license": "MIT",
   "private": false,
   "main": "dist/index.js",
@@ -33,39 +33,10 @@
     "prepublishOnly": "yarn build",
     "build": "rollup --config rollup.config.js --bundleConfigAsCjs --environment NODE_ENV:production"
   },
-  "keywords": [
-    "contenteditable",
-    "docs",
-    "document",
-    "edit",
-    "editor",
-    "editable",
-    "html",
-    "markdown",
-    "medium",
-    "paper",
-    "react",
-    "rich",
-    "richtext",
-    "richtext",
-    "slate",
-    "text",
-    "notion",
-    "wysiwyg",
-    "wysiwym"
-  ],
   "devDependencies": {
-    "@types/lodash.uniqwith": "^4.5.7"
+    "@types/lodash.uniqwith": "^4.5.7",
+    "rollup": "^4.19.2"
   },
-  "description": "<h2 align=\"center\">Yoopta-Editor v1 🎉</h2> <p align=\"center\">Yoopta-Editor - is an open source notion-like editor 💥</p> <div align=\"center\"> <img width=\"574\" alt=\"Screen Shot 2023-01-25 at 16 04 29\" src=\"https://user-images.githubusercontent.com/29093118/215324525-882bf403-646c-4267-bb5f-c0f37509ac09.png\"> </div>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Darginec05/Yoopta-Editor.git"
-  },
-  "author": "https://github.com/Darginec05",
-  "bugs": {
-    "url": "https://github.com/Darginec05/Yoopta-Editor/issues"
-  },
-  "homepage": "https://github.com/Darginec05/Yoopta-Editor#readme",
-  "gitHead": "600e0cf267a0ce7df074ddc7db1114d67c4185d1"
+  "description": "Team Tells Editor",
+  "author": "https://github.com/TeamTells"
 }
