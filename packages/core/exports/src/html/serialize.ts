@@ -1,4 +1,4 @@
-import { YooEditor, YooptaBlockData, SlateElement, YooptaContentValue } from '@yoopta/editor';
+import { YooEditor, YooptaBlockData, SlateElement, YooptaContentValue } from '@teamtells/editor';
 
 export function getPluginByInlineElement(plugins: YooEditor['plugins'], elementType: string) {
   const plugin = Object.values(plugins).find((plugin) => plugin.type === plugin.elements?.[elementType].rootPlugin);

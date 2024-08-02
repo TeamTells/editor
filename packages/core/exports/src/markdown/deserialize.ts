@@ -1,4 +1,4 @@
-import { YooEditor, YooptaContentValue } from '@yoopta/editor';
+import { YooEditor, YooptaContentValue } from '@teamtells/editor';
 import { marked } from 'marked';
 import { deserializeHTML } from '../html/deserialize';
 

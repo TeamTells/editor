@@ -1,4 +1,4 @@
-import { YooEditor, YooptaContentValue } from '@yoopta/editor';
+import { YooEditor, YooptaContentValue } from '@teamtells/editor';
 import { serializeHTML } from '../html/serialize';
 
 export function serializeText(editor: YooEditor, content: YooptaContentValue) {
