@@ -1,4 +1,4 @@
-import { SlateElement } from '@yoopta/editor';
+import { SlateElement } from '@teamtells/editor';
 
 export type BulletedListPluginKeys = 'bulleted-list';
 export type NumberedListPluginKeys = 'numbered-list';

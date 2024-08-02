@@ -1,4 +1,4 @@
-import { buildBlockData, generateId, YooptaBlockData, YooptaPlugin } from '@yoopta/editor';
+import { buildBlockData, generateId, YooptaBlockData, YooptaPlugin } from '@teamtells/editor';
 import { TodoListRender } from '../elements/TodoList';
 import { onKeyDown } from '../events/onKeyDown';
 import { TodoListElementProps, TodoListPluginKeys } from '../types';

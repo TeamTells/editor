@@ -6,7 +6,7 @@ import {
   buildBlockData,
   buildBlockElement,
   Elements,
-} from '@yoopta/editor';
+} from '@teamtells/editor';
 import { Editor, Element, Path } from 'slate';
 import { BulletedListElement, NumberedListElement, TodoListElement } from '../types';
 

@@ -1,4 +1,4 @@
-import { Elements, PluginElementRenderProps, useBlockData, useYooptaEditor } from '@yoopta/editor';
+import { Elements, PluginElementRenderProps, useBlockData, useYooptaEditor } from '@teamtells/editor';
 import { TodoListElementProps } from '../types';
 
 const TodoListRender = ({ extendRender, ...props }: PluginElementRenderProps) => {

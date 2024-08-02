@@ -1,4 +1,4 @@
-import { PluginElementRenderProps, useBlockData, useYooptaEditor, YooEditor, YooptaBlockData } from '@yoopta/editor';
+import { PluginElementRenderProps, useBlockData, useYooptaEditor, YooEditor, YooptaBlockData } from '@teamtells/editor';
 
 function getNumberedListCount(editor: YooEditor, block: YooptaBlockData) {
   const sortedKeys = Object.keys(editor.children).sort((a, b) => {

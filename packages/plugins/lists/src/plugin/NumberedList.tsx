@@ -1,4 +1,4 @@
-import { YooptaPlugin, buildBlockData, YooptaBlockData, generateId } from '@yoopta/editor';
+import { YooptaPlugin, buildBlockData, YooptaBlockData, generateId } from '@teamtells/editor';
 import { NumberedListRender } from '../elements/NumberedList';
 import { onKeyDown } from '../events/onKeyDown';
 import { ListElementProps } from '../types';

@@ -1,4 +1,4 @@
-import { buildBlockData, generateId, YooptaBlockData, YooptaPlugin } from '@yoopta/editor';
+import { buildBlockData, generateId, YooptaBlockData, YooptaPlugin } from '@teamtells/editor';
 import { BulletedListRender } from '../elements/BulletedList';
 import { onKeyDown } from '../events/onKeyDown';
 import { BulletedListElement, BulletedListPluginKeys } from '../types';
