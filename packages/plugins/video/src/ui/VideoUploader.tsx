@@ -1,4 +1,4 @@
-import { UI } from '@yoopta/editor';
+import { UI } from '@teamtells/editor';
 import { CSSProperties, useState } from 'react';
 import { EmbedUploader } from './EmbedUploader';
 import { FileUploader } from './FileUploader';

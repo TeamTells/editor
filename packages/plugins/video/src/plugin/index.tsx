@@ -1,4 +1,4 @@
-import { generateId, YooptaPlugin } from '@yoopta/editor';
+import { generateId, YooptaPlugin } from '@teamtells/editor';
 import { VideoElementProps, VideoPluginElements, VideoPluginOptions } from '../types';
 import { VideoRender } from '../ui/Video';
 

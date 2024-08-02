@@ -1,4 +1,4 @@
-import { Blocks, Elements, UI, YooEditor, YooptaBlockData } from '@yoopta/editor';
+import { Blocks, Elements, UI, YooEditor, YooptaBlockData } from '@teamtells/editor';
 import {
   RowSpacingIcon,
   SizeIcon,

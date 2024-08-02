@@ -7,7 +7,7 @@ import {
   useBlockSelected,
   useYooptaReadOnly,
   Elements,
-} from '@yoopta/editor';
+} from '@teamtells/editor';
 import { Resizable, ResizableProps } from 're-resizable';
 import { useEffect, useMemo, useState } from 'react';
 import { Placeholder } from './Placeholder';

@@ -1,4 +1,4 @@
-import { type SlateElement } from '@yoopta/editor';
+import { type SlateElement } from '@teamtells/editor';
 
 export type VideoSizes = {
   width: number;
