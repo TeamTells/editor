@@ -1,4 +1,4 @@
-import { SlateElement } from '@yoopta/editor';
+import { SlateElement } from '@teamtells/editor';
 import { ActionMenuList } from './components/ActionMenuList';
 export { DefaultActionMenuRender } from './components/DefaultActionMenuRender';
 export { ActionMenuRenderProps, ActionMenuToolProps } from './types';

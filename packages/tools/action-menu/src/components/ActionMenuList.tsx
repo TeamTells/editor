@@ -10,7 +10,7 @@ import {
   HOTKEYS,
   findPluginBlockBySelectionPath,
   UI,
-} from '@yoopta/editor';
+} from '@teamtells/editor';
 import { ActionMenuRenderProps, ActionMenuToolItem, ActionMenuToolProps } from '../types';
 import { buildActionMenuRenderProps, mapActionMenuItems } from './utils';
 
