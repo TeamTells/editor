@@ -1,4 +1,4 @@
-import { getRootBlockElement, YooEditor } from '@yoopta/editor';
+import { getRootBlockElement, YooEditor } from '@teamtells/editor';
 
 type Params = {
   editor: YooEditor;

@@ -1,6 +1,6 @@
 // import { ChevronUpIcon } from '@radix-ui/react-icons';
 import { CSSProperties, MouseEvent } from 'react';
-import { YooEditor, UI } from '@yoopta/editor';
+import { YooEditor, UI } from '@teamtells/editor';
 const { Portal } = UI;
 
 const colors = [

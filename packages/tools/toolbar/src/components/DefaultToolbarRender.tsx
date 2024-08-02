@@ -24,7 +24,7 @@ import {
   Blocks,
   findPluginBlockBySelectionPath,
   YooptaBlockData,
-} from '@yoopta/editor';
+} from '@teamtells/editor';
 import { Editor, Element, NodeEntry, Range, Transforms } from 'slate';
 import { ToolbarRenderProps } from '../types';
 import { buildActionMenuRenderProps } from './utils';
