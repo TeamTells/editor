@@ -1,4 +1,4 @@
-import { Elements, UI, YooEditor, YooptaBlockData } from '@yoopta/editor';
+import { Elements, UI, YooEditor, YooptaBlockData } from '@teamtells/editor';
 import SuccessIcon from '../icons/success.svg';
 import WarningIcon from '../icons/warning.svg';
 import ErrorIcon from '../icons/error.svg';

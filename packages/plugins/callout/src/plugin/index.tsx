@@ -1,4 +1,4 @@
-import { generateId, YooptaPlugin } from '@yoopta/editor';
+import { generateId, YooptaPlugin } from '@teamtells/editor';
 import { CSSProperties } from 'react';
 import { CalloutElementProps, CalloutPluginElementKeys, CalloutTheme } from '../types';
 import { CalloutRender } from '../ui/Callout';

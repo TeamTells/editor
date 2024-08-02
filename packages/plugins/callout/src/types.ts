@@ -1,4 +1,4 @@
-import { SlateElement } from '@yoopta/editor';
+import { SlateElement } from '@teamtells/editor';
 
 export type CalloutPluginElementKeys = 'callout';
 

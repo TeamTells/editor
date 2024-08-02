@@ -1,4 +1,4 @@
-import { PluginElementRenderProps, useBlockData, useYooptaEditor, useYooptaReadOnly } from '@yoopta/editor';
+import { PluginElementRenderProps, useBlockData, useYooptaEditor, useYooptaReadOnly } from '@teamtells/editor';
 import { CalloutBlockOptions } from './CalloutBlockOptions';
 
 const CalloutRender = ({ extendRender, ...props }: PluginElementRenderProps) => {
