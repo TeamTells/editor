@@ -1,4 +1,4 @@
-import { UI } from '@yoopta/editor';
+import { UI } from '@teamtells/editor';
 import { CSSProperties } from 'react';
 import { FileUploader } from './FileUploader';
 

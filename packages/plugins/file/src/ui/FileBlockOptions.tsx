@@ -1,4 +1,4 @@
-import { Blocks, UI, YooEditor, YooptaBlockData } from '@yoopta/editor';
+import { Blocks, UI, YooEditor, YooptaBlockData } from '@teamtells/editor';
 import { ExternalLinkIcon, TextAlignCenterIcon, TextAlignLeftIcon, TextAlignRightIcon } from '@radix-ui/react-icons';
 import { FileElementProps } from '../types';
 

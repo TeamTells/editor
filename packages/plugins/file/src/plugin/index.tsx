@@ -1,4 +1,4 @@
-import { generateId, YooptaPlugin } from '@yoopta/editor';
+import { generateId, YooptaPlugin } from '@teamtells/editor';
 import { FileElementProps, FilePluginElements, FilePluginOptions } from '../types';
 import { FileRender } from '../ui/File';
 

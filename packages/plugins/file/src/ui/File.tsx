@@ -5,7 +5,7 @@ import {
   useYooptaEditor,
   useBlockSelected,
   useYooptaReadOnly,
-} from '@yoopta/editor';
+} from '@teamtells/editor';
 import { Placeholder } from './Placeholder';
 import { FileBlockOptions } from './FileBlockOptions';
 
