@@ -1,4 +1,4 @@
-import { Elements, PluginElementRenderProps, useYooptaEditor } from '@yoopta/editor';
+import { Elements, PluginElementRenderProps, useYooptaEditor } from '@teamtells/editor';
 import { Path } from 'slate';
 
 export const AccordionItemContent = ({ extendRender, ...props }: PluginElementRenderProps) => {

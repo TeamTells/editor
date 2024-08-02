@@ -1,4 +1,4 @@
-import { PluginElementRenderProps, useYooptaEditor, useYooptaReadOnly, Elements, Blocks } from '@yoopta/editor';
+import { PluginElementRenderProps, useYooptaEditor, useYooptaReadOnly, Elements, Blocks } from '@teamtells/editor';
 import { ChevronUp, Plus, TrashIcon } from 'lucide-react';
 import { Path } from 'slate';
 import { MouseEvent } from 'react';

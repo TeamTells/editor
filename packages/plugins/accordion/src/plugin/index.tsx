@@ -1,4 +1,4 @@
-import { Blocks, Elements, YooptaPlugin } from '@yoopta/editor';
+import { Blocks, Elements, YooptaPlugin } from '@teamtells/editor';
 import { AccordionElementKeys, AccordionListItemProps } from '../types';
 import { AccordionList } from '../renders/AccordionList';
 import { AccordionListItem } from '../renders/AccordionListItem';
