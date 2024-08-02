@@ -1,4 +1,4 @@
-import { YooptaMarkProps, createYooptaMark } from '@yoopta/editor';
+import { YooptaMarkProps, createYooptaMark } from '@teamtells/editor';
 
 type CodeMarkProps = YooptaMarkProps<'code', boolean>;
 
