@@ -1,4 +1,4 @@
-import { PluginElementRenderProps } from '@yoopta/editor';
+import { PluginElementRenderProps } from '@teamtells/editor';
 
 const ParagraphRender = ({ extendRender, ...props }: PluginElementRenderProps) => {
   const { className = '', ...htmlAttrs } = props.HTMLAttributes || {};

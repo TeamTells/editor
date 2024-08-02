@@ -1,4 +1,4 @@
-import { YooptaPlugin } from '@yoopta/editor';
+import { YooptaPlugin } from '@teamtells/editor';
 import { ParagraphRender } from '../ui/Paragraph';
 
 const Paragraph = new YooptaPlugin({
