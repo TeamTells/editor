@@ -1,4 +1,4 @@
-import { YooptaPlugin } from '@yoopta/editor';
+import { YooptaPlugin } from '@teamtells/editor';
 import { BlockquoteRender } from '../ui/Blockquote';
 
 const Blockquote = new YooptaPlugin({
