@@ -1,4 +1,4 @@
-import { YooptaPlugin, PluginElementRenderProps } from '@yoopta/editor';
+import { YooptaPlugin, PluginElementRenderProps } from '@teamtells/editor';
 
 const HeadingOneRender = ({ extendRender, ...props }: PluginElementRenderProps) => {
   const { element, HTMLAttributes = {}, attributes, children } = props;
