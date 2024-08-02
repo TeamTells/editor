@@ -1,4 +1,4 @@
-import { Elements, useYooptaEditor, useYooptaPluginOptions } from '@yoopta/editor';
+import { Elements, useYooptaEditor, useYooptaPluginOptions } from '@teamtells/editor';
 import { ImageElementProps, ImagePluginElements, ImagePluginOptions } from '../types';
 
 type Props = {

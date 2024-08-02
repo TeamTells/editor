@@ -1,4 +1,4 @@
-import { generateId, SlateElement, YooptaPlugin } from '@yoopta/editor';
+import { generateId, SlateElement, YooptaPlugin } from '@teamtells/editor';
 import { ImageElementProps, ImagePluginElements, ImagePluginOptions } from '../types';
 import { ImageRender } from '../ui/Image';
 

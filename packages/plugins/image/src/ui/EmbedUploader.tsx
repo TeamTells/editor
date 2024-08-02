@@ -1,4 +1,4 @@
-import { Elements, useYooptaEditor } from '@yoopta/editor';
+import { Elements, useYooptaEditor } from '@teamtells/editor';
 import { ChangeEvent, useState } from 'react';
 
 const EmbedUploader = ({ blockId, onClose }) => {
