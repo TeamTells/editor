@@ -1,4 +1,4 @@
-import { generateId, YooptaPlugin } from '@yoopta/editor';
+import { generateId, YooptaPlugin } from '@teamtells/editor';
 import { CodeElementProps, CodePluginBlockOptions, CodePluginElements } from '../types';
 import { CodeEditor } from '../ui/Code';
 

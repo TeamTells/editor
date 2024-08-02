@@ -4,7 +4,7 @@ import {
   PluginCustomEditorRenderProps,
   useYooptaReadOnly,
   buildBlockData,
-} from '@yoopta/editor';
+} from '@teamtells/editor';
 import CodeMirror, { BasicSetupOptions } from '@uiw/react-codemirror';
 
 import { useRef, useState } from 'react';

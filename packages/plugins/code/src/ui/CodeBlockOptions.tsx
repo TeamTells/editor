@@ -1,4 +1,4 @@
-import { UI as UI_HELPERS, YooEditor, YooptaBlockData } from '@yoopta/editor';
+import { UI as UI_HELPERS, YooEditor, YooptaBlockData } from '@teamtells/editor';
 import { Select } from './Select';
 import { THEMES_MAP } from '../utils/themes';
 

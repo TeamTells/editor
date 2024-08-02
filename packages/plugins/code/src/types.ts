@@ -1,4 +1,4 @@
-import { SlateElement } from '@yoopta/editor';
+import { SlateElement } from '@teamtells/editor';
 import { LANGUAGES_MAP } from './utils/languages';
 import { THEMES_MAP } from './utils/themes';
 

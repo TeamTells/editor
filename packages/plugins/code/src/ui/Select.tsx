@@ -1,7 +1,7 @@
 import * as SelectPrimitive from '@radix-ui/react-select';
 import DownIcon from '../icons/down.svg';
 import CheckmarkIcon from '../icons/checkmark.svg';
-import { useYooptaEditor } from '@yoopta/editor';
+import { useYooptaEditor } from '@teamtells/editor';
 
 const SelectRoot = SelectPrimitive.Root;
 const SelectValue = SelectPrimitive.Value;

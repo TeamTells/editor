@@ -1,4 +1,4 @@
-import { YooptaBlockData } from '@yoopta/editor';
+import { YooptaBlockData } from '@teamtells/editor';
 import { CodeElement } from '../types';
 
 export const getCodeElement = (block: YooptaBlockData) => {
