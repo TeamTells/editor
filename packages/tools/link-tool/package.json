@@ -1,9 +1,7 @@
 {
-  "name": "@yoopta/link-tool",
-  "version": "4.6.7",
-  "description": "Link tool for Yoopta Editor",
-  "author": "Darginec05 <devopsbanda@gmail.com>",
-  "homepage": "https://github.com/Darginec05/Editor-Yoopta#readme",
+  "name": "@teamtells/link-tool",
+  "version": "1.0.0",
+  "description": "Link tool for Team Tells Editor",
   "license": "MIT",
   "private": false,
   "main": "dist/index.js",
@@ -14,25 +12,14 @@
     "dist/"
   ],
   "peerDependencies": {
-    "@yoopta/editor": ">=4.0.0",
+    "@teamtells/editor": ">=1.0.0",
     "react": ">=17.0.2",
     "react-dom": ">=17.0.2"
   },
-  "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Darginec05/Editor-Yoopta.git"
-  },
   "scripts": {
-    "test": "node ./__tests__/yoopta-action-menu-list.test.js",
     "start": "rollup --config rollup.config.js --watch --bundleConfigAsCjs --environment NODE_ENV:development",
     "prepublishOnly": "yarn build",
     "build": "rollup --config rollup.config.js --bundleConfigAsCjs --environment NODE_ENV:production"
   },
-  "bugs": {
-    "url": "https://github.com/Darginec05/Editor-Yoopta/issues"
-  },
-  "gitHead": "600e0cf267a0ce7df074ddc7db1114d67c4185d1"
+  "author": "https://github.com/TeamTells"
 }

@@ -1,4 +1,4 @@
-import { YooEditor } from '@yoopta/editor';
+import { YooEditor } from '@teamtells/editor';
 
 export type Link = {
   url: string;

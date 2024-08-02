@@ -1,4 +1,4 @@
-import { SlateElement } from '@yoopta/editor';
+import { SlateElement } from '@teamtells/editor';
 import { LinkTool } from './components/LinkTool';
 export { DefaultLinkToolRender } from './components/DefaultLinkToolRender';
 
