@@ -1,4 +1,5 @@
 import { buildBlockData, generateId, YooptaBlockData, YooptaPlugin } from '@yoopta/editor';
+import { Element, Transforms } from 'slate';
 import { BulletedListRender } from '../elements/BulletedList';
 import { onKeyDown } from '../events/onKeyDown';
 import { BulletedListElement, BulletedListPluginKeys } from '../types';
@@ -28,6 +29,9 @@ const BulletedList = new YooptaPlugin<BulletedListPluginKeys, BulletedListElemen
           if (el.nodeName === 'UL') {
             const listItems = el.querySelectorAll('li');
 
+            const align = (el.getAttribute('data-meta-align') || 'left') as YooptaBlockData['meta']['align'];
+            const depth = parseInt(el.getAttribute('data-meta-depth') || '0', 10);
+
             const bulletListBlocks: YooptaBlockData[] = Array.from(listItems)
               .filter((listItem) => {
                 const textContent = listItem.textContent || '';
@@ -49,11 +53,11 @@ const BulletedList = new YooptaPlugin<BulletedListPluginKeys, BulletedListElemen
                       props: { nodeType: 'block' },
                     },
                   ],
-                  meta: { order: 0, depth: 0 },
+                  meta: { order: 0, depth: depth, align },
                 });
               });
 
-            if (bulletListBlocks.length > 1) return bulletListBlocks;
+            if (bulletListBlocks.length > 0) return bulletListBlocks;
           }
         },
       },

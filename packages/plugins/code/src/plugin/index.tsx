@@ -39,13 +39,16 @@ const Code = new YooptaPlugin<CodePluginElements, CodeElementProps, CodePluginBl
             const code = el.querySelector('code');
             const textContent = code ? code.textContent : el.textContent;
 
+            const language = el.getAttribute('data-language') || 'javascript';
+            const theme = el.getAttribute('data-theme') || 'VSCode';
+
             return {
               children: [{ text: textContent || '' }],
               type: 'code',
               id: generateId(),
               props: {
-                language: 'JavaScript',
-                theme: 'VSCode',
+                language: language,
+                theme: theme,
                 nodeType: 'void',
               },
             };
@@ -55,8 +58,9 @@ const Code = new YooptaPlugin<CodePluginElements, CodeElementProps, CodePluginBl
       serialize: (element, text, blockMeta) => {
         const { align = 'left', depth = 0 } = blockMeta || {};
         const justify = ALIGNS_TO_JUSTIFY[align] || 'left';
+        const escapedText = escapeHTML(text);
 
-        return `<pre data-meta-align="${align}" data-meta-depth="${depth}" style="margin-left: ${depth}px; display: flex; width: 100%; justify-content: "${justify}"; background-color: #263238; color: #fff; padding: 20px 24px; white-space: pre-line;"><code>${text}</code></pre>`.toString();
+        return `<pre data-theme="${element.props.theme}" data-language="${element.props.language}" data-meta-align="${align}" data-meta-depth="${depth}" style="margin-left: ${depth}px; display: flex; width: 100%; justify-content: "${justify}"; background-color: #263238; color: #fff; padding: 20px 24px; white-space: pre-line;"><code>${escapedText}</code></pre>`.toString();
       },
     },
     markdown: {
@@ -66,5 +70,14 @@ const Code = new YooptaPlugin<CodePluginElements, CodeElementProps, CodePluginBl
     },
   },
 });
+
+function escapeHTML(text) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
 
 export { Code };

@@ -15,10 +15,6 @@ import Code from '@yoopta/code';
 import ActionMenuList, { DefaultActionMenuRender } from '@yoopta/action-menu-list';
 import Toolbar, { DefaultToolbarRender } from '@yoopta/toolbar';
 import LinkTool, { DefaultLinkToolRender } from '@yoopta/link-tool';
-// import { DividerPlugin } from './customPlugins/Divider';
-
-import { Sheet } from '@/components/ui/sheet';
-
 import { uploadToCloudinary } from '@/utils/cloudinary';
 import { useMemo, useRef } from 'react';
 import { WITH_CUSTOM_HTML_ATTRS_INIT_VALUE } from './initValue';
@@ -65,13 +61,17 @@ const plugins = [
           },
         };
       },
+      onUploadPoster: async (file) => {
+        const image = await uploadToCloudinary(file, 'image');
+        return image.secure_url;
+      },
     },
   }),
   File.extend({
     options: {
       onUpload: async (file) => {
         const response = await uploadToCloudinary(file, 'auto');
-        return { src: response.url };
+        return { src: response.secure_url, format: response.format, name: response.name, size: response.bytes };
       },
     },
   }),

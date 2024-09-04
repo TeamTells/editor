@@ -31,6 +31,9 @@ const NumberedList = new YooptaPlugin<'numbered-list', ListElementProps>({
           if (el.nodeName === 'OL') {
             const listItems = el.querySelectorAll('li');
 
+            const align = (el.getAttribute('data-meta-align') || 'left') as YooptaBlockData['meta']['align'];
+            const depth = parseInt(el.getAttribute('data-meta-depth') || '0', 10);
+
             const numberedListBlocks: YooptaBlockData[] = Array.from(listItems)
               .filter((listItem) => {
                 const textContent = listItem.textContent || '';
@@ -52,10 +55,10 @@ const NumberedList = new YooptaPlugin<'numbered-list', ListElementProps>({
                       props: { nodeType: 'block' },
                     },
                   ],
-                  meta: { order: 0, depth: 0 },
+                  meta: { order: 0, depth, align },
                 });
               });
-            if (numberedListBlocks.length > 1) return numberedListBlocks;
+            if (numberedListBlocks.length > 0) return numberedListBlocks;
           }
         },
       },
