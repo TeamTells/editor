@@ -1,12 +1,22 @@
 import { Accordion } from './plugin';
-import { AccordionItemElement } from './types';
+import {
+  AccordionListElement,
+  AccordionItemElement,
+  AccordionListItemHeadingElement,
+  AccordionListItemContentElement,
+  AccordionListItemProps,
+} from './types';
 import './styles.css';
 
 declare module 'slate' {
   interface CustomTypes {
-    Element: AccordionItemElement;
+    Element:
+      | AccordionListElement
+      | AccordionItemElement
+      | AccordionListItemHeadingElement
+      | AccordionListItemContentElement;
   }
 }
 
 export default Accordion;
-export { AccordionItemElement };
+export { AccordionItemElement, AccordionListItemProps };

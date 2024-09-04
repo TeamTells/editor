@@ -1,4 +1,4 @@
-import { Descendant, Editor, Path, Point } from 'slate';
+import { Descendant, Path, Point } from 'slate';
 import { Plugin, PluginElementsMap, PluginOptions, PluginElementProps } from '../plugins/types';
 import { EditorBlurOptions } from './core/blur';
 import { BlockSelectedOptions } from './selection/setBlockSelected';
@@ -10,6 +10,8 @@ import { FocusBlockOptions } from './blocks/focusBlock';
 import { ToggleBlockOptions } from './blocks/toggleBlock';
 import { DeleteBlocksOptions } from './blocks/deleteBlocks';
 import { GetBlockOptions } from './blocks/getBlock';
+import { ReactEditor } from 'slate-react';
+import { HistoryEditor } from 'slate-history';
 
 export type YooptaBlockPath = [number];
 
@@ -28,7 +30,7 @@ export type YooptaBlockBaseMeta = {
 
 export type YooptaContentValue = Record<string, YooptaBlockData>;
 
-export type SlateEditor = Editor;
+export type SlateEditor = ReactEditor & HistoryEditor;
 
 // add 'end' | 'start'
 export type FocusAt = Path | Point;
@@ -74,6 +76,7 @@ export type YooEditorEvents = 'change' | 'focus' | 'blur' | 'block:copy';
 export type YooEditor<TNodes = any> = {
   id: string;
   readOnly: boolean;
+  isEmpty: () => boolean;
   insertBlock: (data: YooptaBlockData, options?: YooptaEditorTransformOptions) => void;
   insertBlocks: (blocks: YooptaBlockData[], options?: YooptaEditorTransformOptions) => void;
   splitBlock: (options?: YooptaEditorTransformOptions) => void;
@@ -90,7 +93,7 @@ export type YooEditor<TNodes = any> = {
   getBlock: (options: GetBlockOptions) => YooptaBlockData | null;
   selection: YooptaBlockPath | null;
   selectedBlocks: number[] | null;
-  children: Record<string, YooptaBlockData>;
+  children: YooptaContentValue;
   getEditorValue: () => TNodes;
   setEditorValue: (value: YooptaContentValue) => void;
   setSelection: (path: YooptaBlockPath | null, options?: SetSelectionOptions) => void;
