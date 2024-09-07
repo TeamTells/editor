@@ -1,6 +1,6 @@
 {
   "name": "@teamtells/code",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Code plugin with syntax highlighting for Team Tells Editor",
   "license": "MIT",
   "private": false,
