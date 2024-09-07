@@ -150,7 +150,7 @@ const VideoBlockOptions = ({ editor, block, props: videoProps }: Props) => {
               <button type="button" className="yoopta-block-options-button yoo-video-justify-between" onClick={onFit}>
                 <span className="yoo-video-flex">
                   <RowSpacingIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4 yoo-video-mr-2" />
-                  Fit
+                  Уместить
                 </span>
                 {videoProps?.fit === 'contain' && (
                   <CheckmarkIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4" />
@@ -161,7 +161,7 @@ const VideoBlockOptions = ({ editor, block, props: videoProps }: Props) => {
               <button type="button" className="yoopta-block-options-button yoo-video-justify-between" onClick={onFill}>
                 <span className="yoo-video-flex">
                   <WidthIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4 yoo-video-mr-2" />
-                  Fill
+                  Растянуть
                 </span>
                 {videoProps?.fit === 'fill' && (
                   <CheckmarkIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4" />
@@ -172,7 +172,7 @@ const VideoBlockOptions = ({ editor, block, props: videoProps }: Props) => {
               <button type="button" className="yoopta-block-options-button yoo-video-justify-between" onClick={onCover}>
                 <span className="yoo-video-flex">
                   <SizeIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4 yoo-video-mr-2" />
-                  Cover
+                  Обрезать по краям
                 </span>
                 {videoProps?.fit === 'cover' && (
                   <CheckmarkIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4" />
@@ -230,7 +230,7 @@ const VideoBlockOptions = ({ editor, block, props: videoProps }: Props) => {
                   ) : (
                     <ImageIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4 yoo-video-mr-2" />
                   )}
-                  {videoProps?.poster ? 'Replace poster' : 'Add poster'}
+                  {videoProps?.poster ? 'Изменить обложку' : 'Добавить обложку'}
                 </label>
               </BlockOptionsMenuItem>
             )}
@@ -246,7 +246,7 @@ const VideoBlockOptions = ({ editor, block, props: videoProps }: Props) => {
             onClick={onToggleAlign}
           >
             <AlignIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4 yoo-video-mr-2" />
-            Alignment
+            Выравнивание
           </button>
         </BlockOptionsMenuItem>
         <BlockOptionsMenuItem>
@@ -258,12 +258,12 @@ const VideoBlockOptions = ({ editor, block, props: videoProps }: Props) => {
             {isExternalVideo ? (
               <>
                 <ExternalLinkIcon width={16} height={16} className="yoo-embed-w-4 yoo-embed-h-4 yoo-embed-mr-2" />
-                Open
+                Открыть
               </>
             ) : (
               <>
                 <DownloadIcon width={16} height={16} className="yoo-video-w-4 yoo-video-h-4 yoo-video-mr-2" />
-                Download
+                Скачать
               </>
             )}
           </button>
