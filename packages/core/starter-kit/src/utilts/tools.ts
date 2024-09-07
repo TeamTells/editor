@@ -1,6 +1,6 @@
-import ActionMenuList, { DefaultActionMenuRender } from '@yoopta/action-menu-list';
-import LinkTool, { DefaultLinkToolRender } from '@yoopta/link-tool';
-import Toolbar, { DefaultToolbarRender } from '@yoopta/toolbar';
+import ActionMenuList, { DefaultActionMenuRender } from '@teamtells/action-menu-list';
+import LinkTool, { DefaultLinkToolRender } from '@teamtells/link-tool';
+import Toolbar, { DefaultToolbarRender } from '@teamtells/toolbar';
 
 export const TOOLS = {
   ActionMenu: {

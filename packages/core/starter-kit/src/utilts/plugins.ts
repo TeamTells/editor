@@ -1,15 +1,15 @@
-import Paragraph from '@yoopta/paragraph';
-import Blockquote from '@yoopta/blockquote';
-import Embed from '@yoopta/embed';
-import Image from '@yoopta/image';
-import Link from '@yoopta/link';
-import Callout from '@yoopta/callout';
-import Video from '@yoopta/video';
-import File from '@yoopta/file';
-import Accordion from '@yoopta/accordion';
-import { NumberedList, BulletedList, TodoList } from '@yoopta/lists';
-import { HeadingOne, HeadingThree, HeadingTwo } from '@yoopta/headings';
-import Code from '@yoopta/code';
+import Paragraph from '@teamtells/paragraph';
+import Blockquote from '@teamtells/blockquote';
+import Embed from '@teamtells/embed';
+import Image from '@teamtells/image';
+import Link from '@teamtells/link';
+import Callout from '@teamtells/callout';
+import Video from '@teamtells/video';
+import File from '@teamtells/file';
+import Accordion from '@teamtells/accordion';
+import { NumberedList, BulletedList, TodoList } from '@teamtells/lists';
+import { HeadingOne, HeadingThree, HeadingTwo } from '@teamtells/headings';
+import Code from '@teamtells/code';
 import { type MediaUploadsFn } from '../components/StarterKit/StarterKit';
 
 type PluginParams = {

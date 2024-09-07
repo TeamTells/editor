@@ -1,12 +1,12 @@
 import { CSSProperties, useEffect, useMemo } from 'react';
-import YooptaEditor, { createYooptaEditor, YooptaContentValue } from '@yoopta/editor';
+import YooptaEditor, { createYooptaEditor, YooptaContentValue } from '@teamtells/editor';
 
 import { TOOLS } from '../../utilts/tools';
 import { MARKS } from '../../utilts/marks';
 import { getPlugins } from '../../utilts/plugins';
-import { ImageUploadResponse } from '@yoopta/image';
-import { VideoUploadResponse } from '@yoopta/video';
-import { FileUploadResponse } from '@yoopta/file';
+import { ImageUploadResponse } from '@teamtells/image';
+import { VideoUploadResponse } from '@teamtells/video';
+import { FileUploadResponse } from '@teamtells/file';
 
 export type StarterKitProps = {
   id?: string;
