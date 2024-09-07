@@ -1,6 +1,13 @@
 {
-  "name": "teamtells-editor",
-  "version": "1.1.0",
+  "name": "teamtells",
+  "workspaces": [
+    "packages/plugins/*",
+    "packages/tools/*",
+    "packages/marks",
+    "packages/core/*",
+    "packages/development"
+  ],
+  "private": true,
   "scripts": {
     "dev": "npm-run-all --parallel start serve",
     "start": "yarn lerna run start --parallel --ignore development",
