@@ -21,8 +21,8 @@ const Embed = new YooptaPlugin<EmbedPluginElements, EmbedElementProps, EmbedPlug
   },
   options: {
     display: {
-      title: 'Embed',
-      description: 'For embed videos, google maps and more',
+      title: 'Embed-блок',
+      description: 'Для вставок из Интернета',
     },
     maxSizes: { maxWidth: 650, maxHeight: 550 },
   },

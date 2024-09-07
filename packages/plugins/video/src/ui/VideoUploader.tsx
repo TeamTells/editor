@@ -49,7 +49,7 @@ const VideoUploader = ({ floatingStyles, refs, onClose, blockId, onSetLoading }:
                     'yoopta-button yoo-video-py-[6px] yoo-video-whitespace-nowrap yoo-video-min-w-0 yoo-video-flex-shrink-0 yoo-video-text-[rgb(55,53,47)] yoo-video-relative yoo-video-cursor-pointer yoo-video-user-select-none yoo-video-bg-inherit yoo-video-transition-[height_20ms_ease-in] yoo-video-inline-flex yoo-video-items-center yoo-video-h-full yoo-video-text-[14px] yoo-video-leading-[1.2] yoo-video-px-[8px]'
                   }
               >
-                Видео по ссылке
+                По ссылке
               </button>
             </div>
             <div

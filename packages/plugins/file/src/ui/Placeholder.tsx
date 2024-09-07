@@ -39,7 +39,7 @@ const Placeholder = ({ attributes, children, blockId }) => {
         ) : (
           <FileIcon className="yoo-file-mr-2 yoo-file-user-select-none" width={24} height={24} />
         )}
-        <span className="yoo-file-font-medium">{loading ? 'Загрузка...' : 'Нажмите, чтобы добавить файл'}</span>
+        <span className="yoo-file-font-medium">{loading ? 'Загрузка...' : 'Нажмите для загрузки файла'}</span>
         {loading && (
           <div
             className="yoopta-button yoo-file-absolute yoo-file-top-0 yoo-file-left-0 yoo-file-h-full yoo-file-bg-[rgba(55,53,47,0.16)]"

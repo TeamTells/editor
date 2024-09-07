@@ -26,7 +26,7 @@ const Placeholder = ({ attributes, children, blockId }) => {
         ref={refs.setReference}
       >
         <CodeIcon className="yoo-embed-mr-2 yoo-embed-user-select-none" width={24} height={24} />
-        <span className="yoo-embed-font-medium">Нажмите, чтобы добавить встраиваемый блок</span>
+        <span className="yoo-embed-font-medium">Нажмите для вставки embed-блока</span>
       </button>
       {isUploaderOpen && (
         <EmbedUploader
