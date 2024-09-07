@@ -40,7 +40,7 @@ const Placeholder = ({ attributes, children, blockId }) => {
         ) : (
           <ImageIcon className="yoo-image-mr-2 yoo-image-user-select-none" width={24} height={24} />
         )}
-        <span className="yoo-image-font-medium">{loading ? 'Loading...' : 'Click to add image'}</span>
+        <span className="yoo-image-font-medium">{loading ? 'Загрузка...' : 'Нажмите, чтобы добавить изображение'}</span>
         {loading && (
           <div
             className="yoo-image-absolute yoo-image-top-0 yoo-image-left-0 yoo-image-h-full yoo-image-bg-[rgba(55,53,47,0.16)]"

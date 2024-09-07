@@ -40,7 +40,7 @@ const Placeholder = ({ attributes, children, blockId }) => {
         ) : (
           <VideoIcon className="yoo-video-mr-2 yoo-video-user-select-none" width={24} height={24} />
         )}
-        <span className="yoo-video-font-medium">{loading ? 'Loading...' : 'Click to add video'}</span>
+        <span className="yoo-video-font-medium">{loading ? 'Загрузка...' : 'Нажмите, для загрузки видео'}</span>
         {loading && (
           <div
             className="yoo-video-absolute yoo-video-top-0 yoo-video-left-0 yoo-video-h-full yoo-video-bg-[rgba(55,53,47,0.16)]"

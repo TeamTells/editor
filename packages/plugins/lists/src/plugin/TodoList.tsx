@@ -15,8 +15,8 @@ const TodoList = new YooptaPlugin<TodoListPluginKeys, TodoListElementProps>({
   },
   options: {
     display: {
-      title: 'Задача',
-      description: 'Отслеживайте задачи',
+      title: 'Список дел',
+      description: 'Отслеживайте выполнение списка дел.',
     },
     shortcuts: ['[]'],
   },
