@@ -3165,6 +3165,167 @@
   dependencies:
     tslib "^2.4.0"
 
+"@teamtells/accordion@latest":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@teamtells/accordion/-/accordion-1.1.1.tgz#05d9092a69dfc9d2fa815de7d0ccddac289d9457"
+  integrity sha512-+z+q8oNEzCl/hNOp0kmu+S3ltB12dNRloMarB3LlMu69QBJOtkfKykpsViSRgaB3Un/BqpWGj1OsdqctY0x8Cg==
+  dependencies:
+    lucide-react "^0.378.0"
+
+"@teamtells/action-menu-list@latest":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@teamtells/action-menu-list/-/action-menu-list-1.0.1.tgz#290926d3e57ab25c6b9924b11d893e652df71110"
+  integrity sha512-5miCo9w5vuiPvzgUheqg8d3GY7TARtPoRT3yBiaR/a1/7+B0KFkws+X7vWQed69CvO1NMsDAhJU8nabAmGEsmA==
+  dependencies:
+    "@floating-ui/react" "^0.26.9"
+    "@radix-ui/react-icons" "^1.3.0"
+
+"@teamtells/blockquote@latest":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@teamtells/blockquote/-/blockquote-1.1.1.tgz#687c1bcd7874b8884a229f7aad4d5b112bbd7223"
+  integrity sha512-RTuKmK3wiI1yNbttkf8BxdZDK3qynnfAm8uyFx6RZzQ/lhNsFsWONnT4SuJaX54cAQhtcBa9+s/K35sMRu5tDw==
+
+"@teamtells/callout@latest":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@teamtells/callout/-/callout-1.1.1.tgz#4f80a9f28294ba668220f2fc7a8ae7e5c8f17afe"
+  integrity sha512-GcdaBhaTK1ExEAuwJ47M5CYOw9FXPBLQ6Jfxzcrliz4UUSlovM7RtwlODsGLuS1GNL6eytZiwix8j3gsouCGDw==
+
+"@teamtells/code@latest":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@teamtells/code/-/code-1.1.1.tgz#f7c4418a796fdb6f83e83aab6a4eb1cbc75c6ca6"
+  integrity sha512-LIRrBi3zdcMzQQzG7uuyNTvV7gkJ0t7fu5iQwTxGYHjOMYcRWKEEvet5pt6Krk3fLLMP2PGuRBU5fJwmDJf+Lw==
+  dependencies:
+    "@codemirror/lang-angular" "^0.1.3"
+    "@codemirror/lang-cpp" "^6.0.2"
+    "@codemirror/lang-css" "^6.2.1"
+    "@codemirror/lang-html" "^6.4.8"
+    "@codemirror/lang-java" "^6.0.1"
+    "@codemirror/lang-javascript" "^6.2.2"
+    "@codemirror/lang-json" "^6.0.1"
+    "@codemirror/lang-markdown" "^6.2.4"
+    "@codemirror/lang-php" "^6.0.1"
+    "@codemirror/lang-python" "^6.1.4"
+    "@codemirror/lang-rust" "^6.0.1"
+    "@codemirror/lang-sql" "^6.6.1"
+    "@codemirror/lang-vue" "^0.1.3"
+    "@codemirror/lang-xml" "^6.1.0"
+    "@codemirror/lang-yaml" "^6.0.0"
+    "@codemirror/theme-one-dark" "^6.1.2"
+    "@radix-ui/react-select" "^2.0.0"
+    "@uiw/codemirror-extensions-basic-setup" "^4.21.24"
+    "@uiw/codemirror-theme-basic" "^4.21.24"
+    "@uiw/codemirror-theme-copilot" "^4.21.24"
+    "@uiw/codemirror-theme-dracula" "^4.21.24"
+    "@uiw/codemirror-theme-github" "^4.21.24"
+    "@uiw/codemirror-theme-material" "^4.21.24"
+    "@uiw/codemirror-theme-monokai-dimmed" "^4.21.24"
+    "@uiw/codemirror-theme-okaidia" "^4.21.24"
+    "@uiw/codemirror-theme-sublime" "^4.21.24"
+    "@uiw/codemirror-theme-vscode" "^4.21.24"
+    "@uiw/react-codemirror" "^4.21.25"
+    codemirror "^6.0.1"
+    copy-to-clipboard "^3.3.3"
+
+"@teamtells/editor@latest":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@teamtells/editor/-/editor-1.1.1.tgz#43f4ef5792d4073ad67c82732adb353117676941"
+  integrity sha512-1Iuwf/g8opJv295mWC+4qELAaH0mv7nOzBn+lU9AlAibLOlwM6frFzgrZLq3s+4t47DE53XD0o+wnLDxCSyl1g==
+  dependencies:
+    "@dnd-kit/core" "^6.1.0"
+    "@dnd-kit/sortable" "^8.0.0"
+    "@floating-ui/react" "^0.26.9"
+    "@radix-ui/react-icons" "^1.3.0"
+    copy-to-clipboard "^3.3.3"
+    eventemitter3 "^5.0.1"
+    immer "^10.0.3"
+    is-hotkey "^0.2.0"
+    lodash.clonedeep "^4.5.0"
+    slate-history "^0.100.0"
+
+"@teamtells/embed@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/embed/-/embed-1.0.0.tgz#8d9fb806023981a2adbc68654faf13c195617ef6"
+  integrity sha512-NPm6D8kyMB/qDw4lV64EZsNOFqVQNWElNxPC9cC2l0u1lQam54W5V5IWpjyMahIUvuG2sX63QNLJhPn8W2c6+w==
+  dependencies:
+    "@floating-ui/react" "^0.26.9"
+    "@radix-ui/react-icons" "^1.3.0"
+    re-resizable "^6.9.11"
+
+"@teamtells/exports@latest":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@teamtells/exports/-/exports-1.1.1.tgz#4a2c0c351044a1de7174b51616603f88ef331aea"
+  integrity sha512-79f3l5ch6tprEPKbuqNt8g5Sc7yRp8SyN1/Mo8pRs1ZuGszYhbZTUhe6qzZqYLCOeWfCeqqZOkvm+ATwRD2OYQ==
+  dependencies:
+    marked "^13.0.0"
+
+"@teamtells/file@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/file/-/file-1.0.0.tgz#0c69b357adf7a26cc604516c6a3dc4c6645a9617"
+  integrity sha512-yU/pzOUxmtVXHnFOWTTR76FULRNC27gTA5F6hItCeNyQDbAtw+S3BsFuQGoMeDZRDMjBvINWm76gp6OczihKsw==
+  dependencies:
+    "@floating-ui/react" "^0.26.9"
+    "@radix-ui/react-icons" "^1.3.0"
+
+"@teamtells/headings@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/headings/-/headings-1.0.0.tgz#f32f35edc8494c989b15a3a31c35cb9e7211785a"
+  integrity sha512-SDRuCYcO+9yoqgtQqfg/AZ9QKGMAlWAU2Vay94K4rX+/2SwtknckO4QC+ZkOycSPLjxvGdZJEK2rZMAUaU7VBg==
+
+"@teamtells/image@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/image/-/image-1.0.0.tgz#9c7054cdd00827c6a9a969e0316db18ebdf9f402"
+  integrity sha512-QD4AbgVuM3He+2LzJA1XQev6HiEw4wF9jENa9JlB1ZobCngN/VEMihZ16XnjetVQ0UVQijYslbfgSccPcV2+gw==
+  dependencies:
+    "@floating-ui/react" "^0.26.9"
+    "@radix-ui/react-icons" "^1.3.0"
+    re-resizable "^6.9.11"
+
+"@teamtells/link-tool@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/link-tool/-/link-tool-1.0.0.tgz#57be5c4f77d85f6cf4e6c7ac1d5bbcdf08d3805c"
+  integrity sha512-2IGysU5v3o/ub6CgnGH7EdITLV4m2Uf/I8mYzqXCQXmVtInYxI0eDPfVNBo9lbYftOss/WnP5zphm5ETalC/Nw==
+
+"@teamtells/link@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/link/-/link-1.0.0.tgz#bdebc4bc49ad35879facd48688a31c1ae0ae980c"
+  integrity sha512-Qa7eXrTQu3Amv0tTHkLHnZODf+WB+auZaoaWGuLIeVrr+pcDlxTzZhQV9ap2O7/urNeeVEmvMII9iUN/oCTcZw==
+  dependencies:
+    lucide-react "^0.379.0"
+
+"@teamtells/lists@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/lists/-/lists-1.0.0.tgz#2ec8b24fe5fcec060690b0b155f6d4f982d28da6"
+  integrity sha512-rH3x3gP/35WoCQntkunZcx0UAMaXbcaaJrm8GaONPYVgKOq+5E+tja/BC77CG5dnqPDcrZ+tlrlWdMiq0VMSPA==
+
+"@teamtells/marks@latest":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@teamtells/marks/-/marks-1.1.1.tgz#aa91c41b0c9dc9eea116802e6776a3c13c93e7c8"
+  integrity sha512-Alip/HozIcAZDpeVodSjyCbAa6d1FpOj9W6YQFdKrUhHP3ZdnUN1u45PrabZ6QOij5THD4VNBEjyRoWsXC0ynw==
+
+"@teamtells/paragraph@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/paragraph/-/paragraph-1.0.0.tgz#c83b04ecfe67f769cd0890379f4ba87938faded7"
+  integrity sha512-XvnWVFQ6Ae1xg2JEXJ9iNsX0nkH+WnP4xegiZYJh7oZneglHECcB8V5UnLEYM/rKeMneFNuTgK7gjtr6te+zTQ==
+
+"@teamtells/toolbar@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/toolbar/-/toolbar-1.0.0.tgz#c821f1226b3267e2fb55c7dd21dd003cc92b45de"
+  integrity sha512-kRvpYrRPcoBrOJ1hlUsAJ2WUd/HtJN/P+45TAI7fhlkxR14l+gSYl9eRYN7GpH5UnI3PRZjDcnKdtq9Dh3q4yA==
+  dependencies:
+    "@floating-ui/react" "^0.26.9"
+    "@radix-ui/react-icons" "^1.3.0"
+    "@radix-ui/react-toolbar" "^1.0.4"
+    lodash.throttle "^4.1.1"
+
+"@teamtells/video@latest":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@teamtells/video/-/video-1.0.0.tgz#2312203adeea8b1a90757c50015883813e69e97a"
+  integrity sha512-SfG+83WA8Jz8heF5NHagwoKe/osZlw5PEFJUqUvPinW64quhdoCc/nkzDHt3/friOSQGADq0PlDuzc3nj0DyvQ==
+  dependencies:
+    "@floating-ui/react" "^0.26.9"
+    "@radix-ui/react-icons" "^1.3.0"
+    re-resizable "^6.9.11"
+
 "@testing-library/dom@^8.5.0":
   version "8.20.1"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.20.1.tgz#2e52a32e46fc88369eef7eef634ac2a192decd9f"
@@ -3943,6 +4104,32 @@
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/@yoopta/paragraph/-/paragraph-4.7.0.tgz#69385c6fcf81c1c0ff9e9db6f0e223c512faede3"
   integrity sha512-q42raKalwA1Elho01WuT21EO7W7AA1WGzVkG+LrQSB3GLp75JNASaJ12DeJ1hiBtMXw0j3dkHaISwhivpE/UVw==
+
+"@yoopta/starter-kit@*":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@yoopta/starter-kit/-/starter-kit-4.7.0.tgz#e16848b9a98ee1d305cd87017bc63f131315a78a"
+  integrity sha512-64jnIPsqySq4i3OORpsiSHuSnmtHYBR1pVrKakuaE/KCi/NMhzBgeJ5nxqfMpvwz1Uvp49+zn3N/hEFkdpxkNw==
+  dependencies:
+    "@yoopta/accordion" latest
+    "@yoopta/action-menu-list" latest
+    "@yoopta/blockquote" latest
+    "@yoopta/callout" latest
+    "@yoopta/code" latest
+    "@yoopta/editor" latest
+    "@yoopta/embed" latest
+    "@yoopta/exports" latest
+    "@yoopta/file" latest
+    "@yoopta/headings" latest
+    "@yoopta/image" latest
+    "@yoopta/link" latest
+    "@yoopta/link-tool" latest
+    "@yoopta/lists" latest
+    "@yoopta/marks" latest
+    "@yoopta/paragraph" latest
+    "@yoopta/toolbar" latest
+    "@yoopta/video" latest
+    slate "^0.102.0"
+    slate-react "^0.102.0"
 
 "@yoopta/toolbar@*", "@yoopta/toolbar@latest":
   version "4.7.0"

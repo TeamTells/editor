@@ -38,5 +38,6 @@
     "rollup": "^4.19.2"
   },
   "description": "Team Tells Editor",
-  "author": "https://github.com/TeamTells"
+  "author": "https://github.com/TeamTells",
+  "gitHead": "f8c807a2cad0a0eeee2268c37e3f234e022b4e22"
 }

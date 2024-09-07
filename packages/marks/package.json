@@ -21,5 +21,6 @@
     "prepublishOnly": "yarn build",
     "build": "rollup --config rollup.config.js --bundleConfigAsCjs --environment NODE_ENV:production"
   },
-  "author": "https://github.com/TeamTells"
+  "author": "https://github.com/TeamTells",
+  "gitHead": "f8c807a2cad0a0eeee2268c37e3f234e022b4e22"
 }
