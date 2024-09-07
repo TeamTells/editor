@@ -35,14 +35,6 @@ const VideoUploader = ({ floatingStyles, refs, onClose, blockId, onSetLoading }:
             <div className="yoo-video-w-full yoo-video-flex yoo-video-text-[14px] yoo-video-p-[0_8px] yoo-video-shadow-[rgb(55_53_47_/9%)_0px_-1px_0px_inset] yoo-video-relative yoo-video-z-10 yoo-video-h-[40px]">
               <button
                 type="button"
-                onClick={() => switchTab('upload')}
-                style={getTabStyles(isUploader)}
-                className={`yoopta-button yoo-video-py-[6px] yoo-video-whitespace-nowrap yoo-video-min-w-0 yoo-video-flex-shrink-0 yoo-video-text-[rgb(55,53,47)] yoo-video-relative yoo-video-cursor-pointer yoo-video-user-select-none yoo-video-bg-inherit yoo-video-transition-[height_20ms_ease-in] yoo-video-inline-flex yoo-video-items-center yoo-video-h-full yoo-video-text-[14px] yoo-video-leading-[1.2] yoo-video-px-[8px]`}
-              >
-                Upload
-              </button>
-              <button
-                type="button"
                 onClick={() => switchTab('embed')}
                 style={getTabStyles(isEmbed)}
                 className={

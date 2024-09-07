@@ -25,7 +25,7 @@ const File = new YooptaPlugin<FilePluginElements, FileElementProps, FilePluginOp
   options: {
     display: {
       title: 'Вложение',
-      description: 'Загружайте файлы с устройства или по ссылке.',
+      description: 'Загружайте файл с устройства.',
     },
     accept: '',
     // onUpload: async () => Promise.resolve({ src: '' }),
