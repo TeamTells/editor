@@ -16,8 +16,8 @@ const Callout = new YooptaPlugin<CalloutPluginElementKeys, CalloutElementProps>(
   },
   options: {
     display: {
-      title: 'Callout',
-      description: 'Make writing stand out',
+      title: 'Заметка',
+      description: 'Сделайте текст заметным.',
     },
     shortcuts: ['<'],
   },

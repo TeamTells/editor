@@ -27,8 +27,8 @@ const Image = new YooptaPlugin<ImagePluginElements, ImageElementProps, ImagePlug
   },
   options: {
     display: {
-      title: 'Image',
-      description: 'Upload from device or embed with link',
+      title: 'Изображение',
+      description: 'Загружайте с устройства или по ссылке.',
     },
     onUpload: () => Promise.resolve({ src: null, alt: null }),
     accept: 'image/png, image/jpeg, image/gif, image/webp',

@@ -11,8 +11,8 @@ const Blockquote = new YooptaPlugin({
   },
   options: {
     display: {
-      title: 'Blockquote',
-      description: 'Capture quote',
+      title: 'Цитата',
+      description: 'Запишите цитату',
     },
     shortcuts: ['>'],
   },

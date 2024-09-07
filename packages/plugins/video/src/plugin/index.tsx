@@ -39,8 +39,8 @@ const Video = new YooptaPlugin<VideoPluginElements, VideoElementProps, VideoPlug
     maxSizes: { maxWidth: 650, maxHeight: 550 },
     onUpload: async () => Promise.resolve({ src: '' }),
     display: {
-      title: 'Video',
-      description: 'Upload from device, embed from Youtube, Vimeo',
+      title: 'Видео',
+      description: 'Загружайте по ссылке.',
     },
   },
   parsers: {

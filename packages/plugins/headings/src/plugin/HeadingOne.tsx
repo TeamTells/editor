@@ -27,8 +27,8 @@ const HeadingOne = new YooptaPlugin({
   },
   options: {
     display: {
-      title: 'Heading 1',
-      description: 'Big section heading',
+      title: 'Заголовок 1',
+      description: 'Большой заголовок раздела.',
     },
     shortcuts: ['h1', '#', '*'],
   },

@@ -112,13 +112,13 @@ const BlockOptions = ({ isOpen, onClose, refs, style, children }: BlockOptionsPr
               <BlockOptionsMenuItem>
                 <button type="button" className="yoopta-block-options-button" onClick={onDelete}>
                   <TrashIcon className="yoo-editor-w-4 yoo-editor-h-4 yoo-editor-mr-2" />
-                  Delete
+                  Удалить
                 </button>
               </BlockOptionsMenuItem>
               <BlockOptionsMenuItem>
                 <button type="button" className="yoopta-block-options-button" onClick={onDuplicate}>
                   <CopyIcon className="yoo-editor-w-4 yoo-editor-h-4 yoo-editor-mr-2" />
-                  Duplicate
+                  Дублировать
                 </button>
               </BlockOptionsMenuItem>
               {!!ActionMenu && !isVoidElement && !editor.blocks[currentBlock?.type || '']?.hasCustomEditor && (
@@ -139,16 +139,16 @@ const BlockOptions = ({ isOpen, onClose, refs, style, children }: BlockOptionsPr
                     onClick={() => setIsActionMenuOpen((open) => !open)}
                   >
                     <TurnIcon className="yoo-editor-w-4 yoo-editor-h-4 yoo-editor-mr-2" />
-                    Turn into
+                    Изменить тип
                   </button>
                 </BlockOptionsMenuItem>
               )}
-              <BlockOptionsMenuItem>
-                <button type="button" className="yoopta-block-options-button" onClick={onCopy}>
-                  <Link2Icon className="yoo-editor-w-4 yoo-editor-h-4 yoo-editor-mr-2" />
-                  Copy link to block
-                </button>
-              </BlockOptionsMenuItem>
+              {/*<BlockOptionsMenuItem>*/}
+              {/*  <button type="button" className="yoopta-block-options-button" onClick={onCopy}>*/}
+              {/*    <Link2Icon className="yoo-editor-w-4 yoo-editor-h-4 yoo-editor-mr-2" />*/}
+              {/*    Copy link to block*/}
+              {/*  </button>*/}
+              {/*</BlockOptionsMenuItem>*/}
             </BlockOptionsMenuGroup>
             {children}
           </BlockOptionsMenuContent>

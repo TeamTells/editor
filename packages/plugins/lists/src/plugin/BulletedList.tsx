@@ -13,8 +13,8 @@ const BulletedList = new YooptaPlugin<BulletedListPluginKeys, BulletedListElemen
   },
   options: {
     display: {
-      title: 'Bulleted List',
-      description: 'Create bullet list',
+      title: 'Маркированный список',
+      description: 'Создайте маркированный список.',
     },
     shortcuts: ['-'],
   },

@@ -25,8 +25,8 @@ const Code = new YooptaPlugin<CodePluginElements, CodeElementProps, CodePluginBl
   },
   options: {
     display: {
-      title: 'Code',
-      description: 'Write the best code ever!',
+      title: 'Фрагмент кода',
+      description: 'Создайте блок с кодом.',
     },
     shortcuts: ['```', 'code', 'js'],
   },
