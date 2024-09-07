@@ -57,7 +57,7 @@ const FileUploader = ({ accept = '', onClose, blockId, onSetLoading }: Props) =>
           onChange={onChange}
           multiple={false}
         />
-        Upload file
+        Загрузите файл
       </label>
     </div>
   );

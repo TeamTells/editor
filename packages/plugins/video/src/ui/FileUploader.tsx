@@ -60,7 +60,7 @@ const FileUploader = ({ accept = 'video/*', onClose, blockId, onSetLoading }: Pr
           onChange={onChange}
           multiple={false}
         />
-        Upload video
+        Загрузить видео
       </label>
     </div>
   );

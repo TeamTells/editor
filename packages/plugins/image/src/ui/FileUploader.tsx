@@ -59,7 +59,7 @@ const FileUploader = ({ accept = 'image/*', onClose, blockId, onSetLoading }: Pr
           onChange={onChange}
           multiple={false}
         />
-        Upload image
+        Загрузить изображение
       </label>
     </div>
   );

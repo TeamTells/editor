@@ -28,7 +28,7 @@ const FilePlaceholderUploader = ({ floatingStyles, refs, onClose, blockId, onSet
                 style={getTabStyles()}
                 className={`yoopta-button yoo-file-py-[6px] yoo-file-whitespace-nowrap yoo-file-min-w-0 yoo-file-flex-shrink-0 yoo-file-text-[rgb(55,53,47)] yoo-file-relative yoo-file-cursor-pointer yoo-file-user-select-none yoo-file-bg-inherit yoo-file-transition-[height_20ms_ease-in] yoo-file-inline-flex yoo-file-items-center yoo-file-h-full yoo-file-text-[14px] yoo-file-leading-[1.2] yoo-file-px-[8px]`}
               >
-                Upload
+                Загрузить
               </button>
             </div>
             <div className="yoo-file-pt-[6px] yoo-file-pb-[6px] yoo-file-mt-[4px] yoo-file-flex yoo-file-justify-center yoo-file-mr-[12px] yoo-file-ml-[12px]">
