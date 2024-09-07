@@ -56,6 +56,5 @@
   "devDependencies": {
     "check-peer-dependencies": "^4.3.0"
   },
-  "author": "https://github.com/TeamTells",
-  "gitHead": "d5a417eda1a92b6d108894c73ddc93252f09f109"
+  "author": "https://github.com/TeamTells"
 }
